@@ -74,7 +74,7 @@ SMS
 │   │   │       │   └── StudentRepository.java
 │   │   │       │
 │   │   │       ├── resources
-│   │   │       │   └── JakartaEE10Rersource.java
+│   │   │       │   └── JakartaEE10Resource.java
 │   │   │       │
 │   │   │       ├── service
 │   │   │       │   └── StudentService.java
@@ -121,7 +121,7 @@ Handles HTTP requests and responses between the web interface and application lo
 
 #### Resources
 
-**`JakartaEE10Rersource.java`**
+**`JakartaEE10Resource.java`**
 
 Contains the Jakarta EE resource configuration used by the application.
 
@@ -250,7 +250,7 @@ The `target/` directory is excluded from Git through `.gitignore`.
 | `StudentRepository.java`    | Database/data-access layer                 |
 | `StudentService.java`       | Service/business logic                     |
 | `StudentServlet.java`       | HTTP request handling                      |
-| `JakartaEE10Rersource.java` | Jakarta EE resource configuration          |
+| `JakartaEE10Resource.java`  | Jakarta EE resource configuration          |
 | `DBConnection.java`         | PostgreSQL database connection             |
 | `pom.xml`                   | Maven dependencies and build configuration |
 
